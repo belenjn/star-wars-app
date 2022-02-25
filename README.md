@@ -9,8 +9,6 @@ Una vez tengas descargado el proyecto para poder ejecutarlo debes escribir en tu
 
 npm start
 
-🆕 !! 
-
 
 
 
