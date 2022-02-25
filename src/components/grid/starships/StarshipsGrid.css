@@ -1,0 +1,14 @@
+.starships__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 230px);
+    gap: 80px;
+    padding: 40px;
+    justify-content: center;
+}
+
+@media (max-width: 560px) {
+    .movies__grid{
+    grid-template-columns: 70%;
+        
+    }
+}

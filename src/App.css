@@ -1,0 +1,22 @@
+.App{
+    background-image: url(https://starwarsblog.starwars.com/wp-content/uploads/2020/04/star-wars-backgrounds-25.jpg);
+    width: 100%;
+    height: 100%;
+    margin-top: 100px;
+}
+
+.star_wars--items{
+    display: block;
+    margin: auto;
+    width: 25%;
+    
+}
+
+
+@media (max-width: 560px) {
+    .star_wars--items{
+       width: 70%;
+       height: auto;
+    }
+    
+}

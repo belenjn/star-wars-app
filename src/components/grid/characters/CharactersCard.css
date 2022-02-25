@@ -1,0 +1,44 @@
+
+.characters__card{
+    color: white;
+    list-style: none;
+    text-align: center;
+    text-shadow: 0 0 0.5rem rgb(22, 192, 22);
+    font-size: 1.5rem;
+    height: 350px;
+    width: 240px;
+}
+
+.hover__info {
+    background-color: transparent;
+    border-radius: 10px;
+    height: 320px;
+    width: 240px;
+}
+
+.hover__info strong {
+    color: yellow;
+}
+
+.hover__info ul {
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    text-shadow: none;
+}
+
+.hover__info li {
+    margin-top: 30px;
+    list-style: square;
+    
+}
+
+.hover__info a {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-style: oblique;
+    font-size: 1rem;
+    overflow-wrap: break-word;
+}
+

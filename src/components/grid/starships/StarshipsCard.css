@@ -1,0 +1,41 @@
+
+.starship__card{
+    background: rgba(0, 0, 0, 0.712);
+    border: 1px solid rgb(4, 35, 214);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.starship__card h2 {
+    color: rgb(212, 211, 211);
+    text-decoration: underline;
+}
+
+.starship__card--list {
+    color: rgb(173, 173, 173);
+    margin: auto;
+    text-align: left;
+    list-style: square;
+    font-size: 1rem;
+
+}
+
+.starship__card--list li {
+    margin-bottom: 10px;
+}
+
+.starship__card--list strong {
+    color: rgb(203, 236, 54);
+}
+
+.starship__card:hover {
+    box-shadow: 0 0 1.2rem rgb(4, 35, 214), 0 0 1rem rgb(199, 199, 199);
+    transform:scale(1.03);
+
+}
