@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/star-wars-app/static/css/main.63af271d.css",
+    "main.js": "/star-wars-app/static/js/main.771b3fbf.js",
+    "static/media/starwars--title.png": "/star-wars-app/static/media/starwars--title.687eb3d57cc9faded343.png",
+    "static/media/sable_laser.png": "/star-wars-app/static/media/sable_laser.31d82be1e4ffaad30445.png",
+    "index.html": "/star-wars-app/index.html",
+    "main.63af271d.css.map": "/star-wars-app/static/css/main.63af271d.css.map",
+    "main.771b3fbf.js.map": "/star-wars-app/static/js/main.771b3fbf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.63af271d.css",
+    "static/js/main.771b3fbf.js"
+  ]
+}
