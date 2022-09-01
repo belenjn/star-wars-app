@@ -1,0 +1,40 @@
+.movies__card{
+    background: rgba(0, 0, 0, 0.767);
+    border: 1px solid rgb(61, 219, 87);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    
+}
+
+.movie__title {
+    color: rgb(212, 211, 211);
+    text-decoration: underline;
+}
+
+.movies__card--list {
+    color: rgb(173, 173, 173);
+    margin: auto;
+    text-align: left;
+    list-style: square;
+    font-size: 1rem;
+
+}
+
+.movies__card--list li {
+    margin-bottom: 10px;
+}
+
+.movies__card--list strong {
+    color: rgb(61, 219, 87);
+}
+
+.movies__card:hover {
+    box-shadow: 0 0 1.2rem rgb(3, 143, 27), 0 0 1rem rgb(199, 199, 199);
+    transform:scale(1.03);
+
+}

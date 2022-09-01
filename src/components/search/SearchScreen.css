@@ -1,0 +1,77 @@
+.search__container {
+    display: flex;
+    justify-content: center;
+}
+
+.search__box {
+    position: relative;
+}
+
+.search__button {
+    cursor: pointer;
+    height: 100%;
+    margin-right: 15px;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border: none;
+    background: none;
+
+}
+
+.search__input {
+    background-color: rgba(255, 255, 0, 0.829);
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: 0 0 5px yellow;
+    cursor: pointer;
+    font-size: 1.2rem;
+    height: 30px;
+    padding: 5px 55px 5px 10px;
+    outline: none;    
+}
+
+.search__input:focus {
+    background-color: yellow;
+    border: 1px solid yellow;
+    box-shadow: 0 0 10px yellow;
+    
+
+}
+
+.search__button:hover{
+    transform:scale(1.30);
+
+}
+
+.delete__container {
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    width: 70px;
+}
+
+.delete__button {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.829);
+    border-radius: 10px;
+    border: 1px solid yellow;
+    box-shadow: 0 0 5px yellow;
+    color: rgba(255, 255, 0, 0.829);
+    cursor: pointer;
+    outline: none;
+    height: 42px;
+    width: 40px;
+}
+.delete__button svg{
+    margin: auto;
+}
+
+.delete__button:hover {
+    box-shadow: 0 0 10px yellow;
+    transform:scale(1.05);
+
+
+}
+
