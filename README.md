@@ -11,7 +11,7 @@ npm install
 
 npm start
 
-Link a la web: https://star-wars-first-app.netlify.app/
+Link a la web: https://belenjn.github.io/star-wars-app/
 
 
 
@@ -28,4 +28,4 @@ npm install
 
 npm start 
 
-Link to website: https://star-wars-first-app.netlify.app/
+Link to website: https://belenjn.github.io/star-wars-app/
